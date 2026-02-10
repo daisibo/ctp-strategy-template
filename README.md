@@ -28,3 +28,7 @@ class DualThrustStrategy(CtaTemplate):
     def on_tick(self, tick: TickData):
         if tick.last_price > self.upper_rail:
             self.buy(tick.last_price, 1)
+
+
+Copyright © 2026 Trading Brains Studio. All rights reserved.
+Internal use only.
